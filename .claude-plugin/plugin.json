@@ -24,7 +24,7 @@
   "mcpServers": {
     "clawifi": {
       "command": "uvx",
-      "args": ["--from", "clawifi", "--with", "mcp<2", "clawifi-mcp"],
+      "args": ["--from", "clawifi==0.1.1", "clawifi-mcp"],
       "env": {
         "CLAWIFI_API_KEY": "${user_config.api_key}"
       }
