@@ -9,9 +9,16 @@
     "url": "https://rearclabs.com"
   },
   "homepage": "https://clawifi.qzz.io",
+  "icon": "./.claude-plugin/icon.png",
   "repository": "https://github.com/atakanelik34/clawifi-mcp",
   "license": "MIT",
-  "keywords": ["web", "search", "scraping", "crawl", "mcp"],
+  "keywords": [
+    "web",
+    "search",
+    "scraping",
+    "crawl",
+    "mcp"
+  ],
   "userConfig": {
     "api_key": {
       "type": "string",
@@ -24,7 +31,11 @@
   "mcpServers": {
     "clawifi": {
       "command": "uvx",
-      "args": ["--from", "clawifi==0.1.1", "clawifi-mcp"],
+      "args": [
+        "--from",
+        "clawifi==0.1.1",
+        "clawifi-mcp"
+      ],
       "env": {
         "CLAWIFI_API_KEY": "${user_config.api_key}"
       }
