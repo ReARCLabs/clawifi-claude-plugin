@@ -1,7 +1,7 @@
 {
   "name": "clawifi",
   "displayName": "Clawifi",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "description": "Agent-native internet gateway: search, fetch, scrape, crawl, map and extract web content through the hosted Clawifi API.",
   "author": {
     "name": "ReARC Labs",
@@ -33,7 +33,7 @@
       "command": "uvx",
       "args": [
         "--from",
-        "clawifi==0.1.2",
+        "clawifi==0.2.0",
         "clawifi-mcp"
       ],
       "env": {
