@@ -33,7 +33,7 @@ Install the plugin, then enter your Clawifi API key when Claude prompts for it. 
 
 ## Data and privacy
 
-- **What it runs:** on startup, `uvx` downloads the pinned `clawifi==0.3.0` package from PyPI and runs its `clawifi-mcp` command on your machine. The plugin has no hooks and runs nothing else.
+- **What it runs:** on startup, `uvx` downloads the pinned `clawifi==0.3.1` package from PyPI and runs its `clawifi-mcp` command on your machine. The plugin has no hooks and runs nothing else.
 - **What it sends:** when Claude calls a Clawifi tool, the MCP server sends that tool's arguments (search queries, URLs, crawl and extraction settings, job and crawl IDs) to the Clawifi API at `https://api.clawifi.qzz.io` over HTTPS, authenticated with your API key. Clawifi then fetches the requested public web pages on its own infrastructure. The plugin sends no other files or data from your machine.
 - **What is stored:** Clawifi keeps request history and credit usage for your account, which you can view with `list_history` and `credits`.
 - Privacy policy: https://clawifi.qzz.io/privacy
