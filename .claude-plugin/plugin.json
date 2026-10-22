@@ -1,14 +1,14 @@
 {
   "name": "clawifi",
   "displayName": "Clawifi",
-  "version": "0.1.4",
+  "version": "0.1.5",
   "description": "Agent-native internet gateway: search, fetch, scrape, crawl, map and extract web content through the hosted Clawifi API.",
   "author": {
     "name": "ReARC Labs",
     "email": "atakan@rearclabs.com",
     "url": "https://rearclabs.com"
   },
-  "homepage": "https://clawifi.qzz.io",
+  "homepage": "https://clawifi.dev",
   "icon": "./.claude-plugin/icon.png",
   "repository": "https://github.com/atakanelik34/clawifi-mcp",
   "license": "MIT",
@@ -23,7 +23,7 @@
     "api_key": {
       "type": "string",
       "title": "Clawifi API key",
-      "description": "Your Clawifi API key (clawifi_live_...). Create one at https://clawifi.qzz.io/signup.",
+      "description": "Your Clawifi API key (clawifi_live_...). Create one at https://clawifi.dev/signup.",
       "required": true,
       "sensitive": true
     }
@@ -33,7 +33,7 @@
       "command": "uvx",
       "args": [
         "--from",
-        "clawifi==0.3.1",
+        "clawifi==0.4.0",
         "clawifi-mcp"
       ],
       "env": {
