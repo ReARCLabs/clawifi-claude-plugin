@@ -29,7 +29,13 @@ Connects Claude to [Clawifi](https://clawifi.dev), an agent-native internet gate
 
 ## Setup
 
-Install the plugin, then enter your Clawifi API key when Claude prompts for it. The key is stored in your system's secure credential store.
+In Claude Code, install the plugin from this repository:
+
+```
+/plugin install clawifi --marketplace ReARCLabs/clawifi-claude-plugin
+```
+
+Then enter your Clawifi API key when Claude prompts for it. The key is stored in your system's secure credential store.
 
 ## Data and privacy
 
@@ -43,6 +49,7 @@ Install the plugin, then enter your Clawifi API key when Claude prompts for it. 
 
 Docs: https://clawifi.dev/docs
 Issues: https://github.com/atakanelik34/clawifi-mcp/issues
+Security: see [SECURITY.md](SECURITY.md)
 
 ## License
 
