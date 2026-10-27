@@ -48,7 +48,7 @@ Then enter your Clawifi API key when Claude prompts for it. The key is stored in
 ## Support
 
 Docs: https://clawifi.dev/docs
-Issues: https://github.com/atakanelik34/clawifi-mcp/issues
+Issues: https://github.com/ReARCLabs/clawifi-mcp/issues
 Security: see [SECURITY.md](SECURITY.md)
 
 ## License

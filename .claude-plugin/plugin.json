@@ -10,7 +10,7 @@
   },
   "homepage": "https://clawifi.dev",
   "icon": "./.claude-plugin/icon.png",
-  "repository": "https://github.com/atakanelik34/clawifi-mcp",
+  "repository": "https://github.com/ReARCLabs/clawifi-mcp",
   "license": "MIT",
   "keywords": [
     "web",
