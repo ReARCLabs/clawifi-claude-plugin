@@ -1,7 +1,7 @@
 {
   "name": "clawifi",
   "displayName": "Clawifi",
-  "version": "0.1.7",
+  "version": "0.1.8",
   "description": "Agent-native internet gateway: search, fetch, scrape, crawl, map and extract web content through the hosted Clawifi API.",
   "author": {
     "name": "ReARC Labs Inc.",
@@ -9,6 +9,7 @@
     "url": "https://rearclabs.com"
   },
   "homepage": "https://clawifi.dev",
+  "privacyPolicyUrl": "https://clawifi.dev/privacy",
   "icon": "./.claude-plugin/icon.png",
   "repository": "https://github.com/ReARCLabs/clawifi-mcp",
   "license": "MIT",

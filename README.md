@@ -4,8 +4,9 @@ Connects Claude to [Clawifi](https://clawifi.dev), web access for AI agents. Cla
 
 ## Requirements
 
+- A Clawifi account. Sign in from Claude after installing, or create a free account there (1,000 credits a month, no card). You can also sign up at https://clawifi.dev/signup.
 - Nothing to install. The plugin connects to the hosted MCP server at `https://api.clawifi.dev/mcp`.
-- A Clawifi account for full use. Sign in from Claude, or create a free account (1,000 credits a month) at https://clawifi.dev/signup. Without an account, `search_free`, `fetch_url`, `scrape_url` and `map_site` work as a trial (12 calls a minute, 50 a day).
+- Before you sign in, `search_free`, `fetch_url`, `scrape_url` and `map_site` work as a short trial (12 calls a minute, 50 a day).
 
 ## What it adds
 
@@ -36,7 +37,12 @@ In Claude Code, install the plugin from this repository:
 /plugin install clawifi --marketplace ReARCLabs/clawifi-claude-plugin
 ```
 
-Then run `/mcp`, choose `clawifi` and sign in with your Clawifi account (or create a free one). The trial tools work before you sign in.
+Then sign in:
+
+1. Run `/mcp` and choose `clawifi`.
+2. Sign in with your Clawifi account, or create a free one on the page that opens (1,000 credits a month).
+
+Every tool is available once you are signed in.
 
 ## Data and privacy
 

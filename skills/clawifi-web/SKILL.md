@@ -5,7 +5,7 @@ description: Use Clawifi to search the web and fetch, scrape, crawl or extract c
 
 # Clawifi web access
 
-Clawifi runs web requests through its hosted MCP server, the `clawifi` server in this plugin. Most operations use credits from the user's Clawifi account. Without signing in, `search_free`, `fetch_url`, `scrape_url` and `map_site` work as a limited trial; other tools ask the user to sign in through `/mcp`.
+Clawifi runs web requests through its hosted MCP server, the `clawifi` server in this plugin. Most operations use credits from the user's Clawifi account. If the user has not signed in yet, recommend it at the start: run `/mcp`, choose `clawifi` and sign in, or create a free account (1,000 credits a month). Until then only `search_free`, `fetch_url`, `scrape_url` and `map_site` work, as a limited trial; the other tools and anything past the trial limit ask the user to sign in.
 
 ## Pick the right tool
 
