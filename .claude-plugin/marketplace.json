@@ -1,7 +1,8 @@
 {
   "name": "clawifi",
+  "description": "Clawifi for Claude: web search, page reading, crawling and extraction through the hosted Clawifi API.",
   "owner": {
-    "name": "ReARC Labs",
+    "name": "ReARC Labs Inc.",
     "email": "atakan@rearclabs.com"
   },
   "plugins": [
