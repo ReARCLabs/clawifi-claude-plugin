@@ -1,7 +1,7 @@
 {
   "name": "clawifi",
   "displayName": "Clawifi",
-  "version": "0.1.6",
+  "version": "0.1.7",
   "description": "Agent-native internet gateway: search, fetch, scrape, crawl, map and extract web content through the hosted Clawifi API.",
   "author": {
     "name": "ReARC Labs Inc.",
@@ -19,33 +19,10 @@
     "crawl",
     "mcp"
   ],
-  "userConfig": {
-    "api_key": {
-      "type": "string",
-      "title": "Clawifi API key",
-      "description": "Your Clawifi API key (clawifi_live_...). Create one at https://clawifi.dev/signup.",
-      "required": true,
-      "sensitive": true
-    }
-  },
   "mcpServers": {
     "clawifi": {
-      "command": "uvx",
-      "args": [
-        "--from",
-        "clawifi==0.4.1",
-        "clawifi-mcp"
-      ],
-      "env": {
-        "CLAWIFI_API_KEY": "${user_config.api_key}"
-      }
+      "type": "http",
+      "url": "https://api.clawifi.dev/mcp"
     }
-  },
-  "network": {
-    "hosts": [
-      "api.clawifi.dev",
-      "pypi.org",
-      "files.pythonhosted.org"
-    ]
   }
 }
