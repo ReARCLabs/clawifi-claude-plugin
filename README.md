@@ -1,6 +1,6 @@
 # Clawifi plugin for Claude
 
-Connects Claude to [Clawifi](https://clawifi.dev), web access for AI agents. Claude can search the web, read pages and PDFs, extract data, and map and crawl sites through Clawifi's hosted MCP server.
+Connects Claude to [Clawifi](https://clawifi.dev/?utm_source=github&utm_medium=readme&utm_campaign=clawifi-claude-plugin), web access for AI agents. Claude can search the web, read pages and PDFs, extract data, and map and crawl sites through Clawifi's hosted MCP server.
 
 ## Requirements
 
